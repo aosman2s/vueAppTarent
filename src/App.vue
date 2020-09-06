@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Char Grouper Page</h1>
+    <Chargrouper/>
   </div>
 </template>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Chargrouper from './components/Chargrouper.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Chargrouper
   }
 }
 </script>
